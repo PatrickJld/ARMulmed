@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A23E7C9F29CF171D00596B48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E7C9E29CF171D00596B48 /* AppDelegate.swift */; };
+		A23E7CA129CF171D00596B48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E7CA029CF171D00596B48 /* ContentView.swift */; };
+		A23E7CA329CF171D00596B48 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A23E7CA229CF171D00596B48 /* Experience.rcproject */; };
+		A23E7CA529CF171F00596B48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23E7CA429CF171F00596B48 /* Assets.xcassets */; };
+		A23E7CA829CF171F00596B48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23E7CA729CF171F00596B48 /* Preview Assets.xcassets */; };
+		A23E7CB229CF171F00596B48 /* HumanAnatomyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E7CB129CF171F00596B48 /* HumanAnatomyTests.swift */; };
+		A23E7CBC29CF171F00596B48 /* HumanAnatomyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E7CBB29CF171F00596B48 /* HumanAnatomyUITests.swift */; };
+		A23E7CBE29CF171F00596B48 /* HumanAnatomyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E7CBD29CF171F00596B48 /* HumanAnatomyUITestsLaunchTests.swift */; };
+		A296E1CA29D4926200341E27 /* MulaiPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A296E1C929D4926200341E27 /* MulaiPage.swift */; };
+		A296E1CC29D4959100341E27 /* MenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A296E1CB29D4959100341E27 /* MenuPage.swift */; };
+		A2CDD80B29D49877009FF212 /* Eyes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDD80A29D49877009FF212 /* Eyes.swift */; };
+		A2CDD80D29D49B19009FF212 /* Lungs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDD80C29D49B19009FF212 /* Lungs.swift */; };
+		A2CDD80F29D49B55009FF212 /* Ear.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDD80E29D49B55009FF212 /* Ear.swift */; };
+		A2CDD81129D49BA0009FF212 /* Pencernaan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDD81029D49BA0009FF212 /* Pencernaan.swift */; };
+		A2CDD81529D49C0E009FF212 /* HumanBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDD81429D49C0E009FF212 /* HumanBody.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A23E7CAE29CF171F00596B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A23E7C9329CF171D00596B48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A23E7C9A29CF171D00596B48;
+			remoteInfo = HumanAnatomy;
+		};
+		A23E7CB829CF171F00596B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A23E7C9329CF171D00596B48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A23E7C9A29CF171D00596B48;
+			remoteInfo = HumanAnatomy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A23E7C9B29CF171D00596B48 /* HumanAnatomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumanAnatomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23E7C9E29CF171D00596B48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A23E7CA029CF171D00596B48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A23E7CA229CF171D00596B48 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		A23E7CA429CF171F00596B48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A23E7CA729CF171F00596B48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A23E7CAD29CF171F00596B48 /* HumanAnatomyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumanAnatomyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23E7CB129CF171F00596B48 /* HumanAnatomyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanAnatomyTests.swift; sourceTree = "<group>"; };
+		A23E7CB729CF171F00596B48 /* HumanAnatomyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumanAnatomyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23E7CBB29CF171F00596B48 /* HumanAnatomyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanAnatomyUITests.swift; sourceTree = "<group>"; };
+		A23E7CBD29CF171F00596B48 /* HumanAnatomyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanAnatomyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A296E1C929D4926200341E27 /* MulaiPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulaiPage.swift; sourceTree = "<group>"; };
+		A296E1CB29D4959100341E27 /* MenuPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPage.swift; sourceTree = "<group>"; };
+		A2CDD80A29D49877009FF212 /* Eyes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eyes.swift; sourceTree = "<group>"; };
+		A2CDD80C29D49B19009FF212 /* Lungs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lungs.swift; sourceTree = "<group>"; };
+		A2CDD80E29D49B55009FF212 /* Ear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ear.swift; sourceTree = "<group>"; };
+		A2CDD81029D49BA0009FF212 /* Pencernaan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pencernaan.swift; sourceTree = "<group>"; };
+		A2CDD81429D49C0E009FF212 /* HumanBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanBody.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A23E7C9829CF171D00596B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23E7CAA29CF171F00596B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23E7CB429CF171F00596B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A23E7C9229CF171D00596B48 = {
+			isa = PBXGroup;
+			children = (
+				A23E7C9D29CF171D00596B48 /* HumanAnatomy */,
+				A23E7CB029CF171F00596B48 /* HumanAnatomyTests */,
+				A23E7CBA29CF171F00596B48 /* HumanAnatomyUITests */,
+				A23E7C9C29CF171D00596B48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A23E7C9C29CF171D00596B48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A23E7C9B29CF171D00596B48 /* HumanAnatomy.app */,
+				A23E7CAD29CF171F00596B48 /* HumanAnatomyTests.xctest */,
+				A23E7CB729CF171F00596B48 /* HumanAnatomyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A23E7C9D29CF171D00596B48 /* HumanAnatomy */ = {
+			isa = PBXGroup;
+			children = (
+				A2CDD80929D49860009FF212 /* ar */,
+				A23E7C9E29CF171D00596B48 /* AppDelegate.swift */,
+				A23E7CA029CF171D00596B48 /* ContentView.swift */,
+				A23E7CA229CF171D00596B48 /* Experience.rcproject */,
+				A23E7CA429CF171F00596B48 /* Assets.xcassets */,
+				A23E7CA629CF171F00596B48 /* Preview Content */,
+				A296E1C929D4926200341E27 /* MulaiPage.swift */,
+				A296E1CB29D4959100341E27 /* MenuPage.swift */,
+			);
+			path = HumanAnatomy;
+			sourceTree = "<group>";
+		};
+		A23E7CA629CF171F00596B48 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A23E7CA729CF171F00596B48 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A23E7CB029CF171F00596B48 /* HumanAnatomyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A23E7CB129CF171F00596B48 /* HumanAnatomyTests.swift */,
+			);
+			path = HumanAnatomyTests;
+			sourceTree = "<group>";
+		};
+		A23E7CBA29CF171F00596B48 /* HumanAnatomyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A23E7CBB29CF171F00596B48 /* HumanAnatomyUITests.swift */,
+				A23E7CBD29CF171F00596B48 /* HumanAnatomyUITestsLaunchTests.swift */,
+			);
+			path = HumanAnatomyUITests;
+			sourceTree = "<group>";
+		};
+		A2CDD80929D49860009FF212 /* ar */ = {
+			isa = PBXGroup;
+			children = (
+				A2CDD80A29D49877009FF212 /* Eyes.swift */,
+				A2CDD80C29D49B19009FF212 /* Lungs.swift */,
+				A2CDD80E29D49B55009FF212 /* Ear.swift */,
+				A2CDD81029D49BA0009FF212 /* Pencernaan.swift */,
+				A2CDD81429D49C0E009FF212 /* HumanBody.swift */,
+			);
+			path = ar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A23E7C9A29CF171D00596B48 /* HumanAnatomy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23E7CC129CF171F00596B48 /* Build configuration list for PBXNativeTarget "HumanAnatomy" */;
+			buildPhases = (
+				A23E7C9729CF171D00596B48 /* Sources */,
+				A23E7C9829CF171D00596B48 /* Frameworks */,
+				A23E7C9929CF171D00596B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HumanAnatomy;
+			productName = HumanAnatomy;
+			productReference = A23E7C9B29CF171D00596B48 /* HumanAnatomy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A23E7CAC29CF171F00596B48 /* HumanAnatomyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23E7CC429CF171F00596B48 /* Build configuration list for PBXNativeTarget "HumanAnatomyTests" */;
+			buildPhases = (
+				A23E7CA929CF171F00596B48 /* Sources */,
+				A23E7CAA29CF171F00596B48 /* Frameworks */,
+				A23E7CAB29CF171F00596B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A23E7CAF29CF171F00596B48 /* PBXTargetDependency */,
+			);
+			name = HumanAnatomyTests;
+			productName = HumanAnatomyTests;
+			productReference = A23E7CAD29CF171F00596B48 /* HumanAnatomyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A23E7CB629CF171F00596B48 /* HumanAnatomyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23E7CC729CF171F00596B48 /* Build configuration list for PBXNativeTarget "HumanAnatomyUITests" */;
+			buildPhases = (
+				A23E7CB329CF171F00596B48 /* Sources */,
+				A23E7CB429CF171F00596B48 /* Frameworks */,
+				A23E7CB529CF171F00596B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A23E7CB929CF171F00596B48 /* PBXTargetDependency */,
+			);
+			name = HumanAnatomyUITests;
+			productName = HumanAnatomyUITests;
+			productReference = A23E7CB729CF171F00596B48 /* HumanAnatomyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A23E7C9329CF171D00596B48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A23E7C9A29CF171D00596B48 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A23E7CAC29CF171F00596B48 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A23E7C9A29CF171D00596B48;
+					};
+					A23E7CB629CF171F00596B48 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A23E7C9A29CF171D00596B48;
+					};
+				};
+			};
+			buildConfigurationList = A23E7C9629CF171D00596B48 /* Build configuration list for PBXProject "HumanAnatomy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A23E7C9229CF171D00596B48;
+			productRefGroup = A23E7C9C29CF171D00596B48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A23E7C9A29CF171D00596B48 /* HumanAnatomy */,
+				A23E7CAC29CF171F00596B48 /* HumanAnatomyTests */,
+				A23E7CB629CF171F00596B48 /* HumanAnatomyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A23E7C9929CF171D00596B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23E7CA829CF171F00596B48 /* Preview Assets.xcassets in Resources */,
+				A23E7CA529CF171F00596B48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23E7CAB29CF171F00596B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23E7CB529CF171F00596B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A23E7C9729CF171D00596B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23E7CA129CF171D00596B48 /* ContentView.swift in Sources */,
+				A2CDD81129D49BA0009FF212 /* Pencernaan.swift in Sources */,
+				A23E7C9F29CF171D00596B48 /* AppDelegate.swift in Sources */,
+				A296E1CC29D4959100341E27 /* MenuPage.swift in Sources */,
+				A2CDD80B29D49877009FF212 /* Eyes.swift in Sources */,
+				A2CDD80F29D49B55009FF212 /* Ear.swift in Sources */,
+				A23E7CA329CF171D00596B48 /* Experience.rcproject in Sources */,
+				A2CDD80D29D49B19009FF212 /* Lungs.swift in Sources */,
+				A296E1CA29D4926200341E27 /* MulaiPage.swift in Sources */,
+				A2CDD81529D49C0E009FF212 /* HumanBody.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23E7CA929CF171F00596B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23E7CB229CF171F00596B48 /* HumanAnatomyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23E7CB329CF171F00596B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23E7CBE29CF171F00596B48 /* HumanAnatomyUITestsLaunchTests.swift in Sources */,
+				A23E7CBC29CF171F00596B48 /* HumanAnatomyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A23E7CAF29CF171F00596B48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A23E7C9A29CF171D00596B48 /* HumanAnatomy */;
+			targetProxy = A23E7CAE29CF171F00596B48 /* PBXContainerItemProxy */;
+		};
+		A23E7CB929CF171F00596B48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A23E7C9A29CF171D00596B48 /* HumanAnatomy */;
+			targetProxy = A23E7CB829CF171F00596B48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A23E7CBF29CF171F00596B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A23E7CC029CF171F00596B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A23E7CC229CF171F00596B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HumanAnatomy/Preview Content\"";
+				DEVELOPMENT_TEAM = 5D33ZSCRYB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.HumanAnatomy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A23E7CC329CF171F00596B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HumanAnatomy/Preview Content\"";
+				DEVELOPMENT_TEAM = 5D33ZSCRYB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.HumanAnatomy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A23E7CC529CF171F00596B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5D33ZSCRYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.HumanAnatomyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumanAnatomy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HumanAnatomy";
+			};
+			name = Debug;
+		};
+		A23E7CC629CF171F00596B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5D33ZSCRYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.HumanAnatomyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumanAnatomy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HumanAnatomy";
+			};
+			name = Release;
+		};
+		A23E7CC829CF171F00596B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5D33ZSCRYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.HumanAnatomyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumanAnatomy;
+			};
+			name = Debug;
+		};
+		A23E7CC929CF171F00596B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5D33ZSCRYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.HumanAnatomyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumanAnatomy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A23E7C9629CF171D00596B48 /* Build configuration list for PBXProject "HumanAnatomy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23E7CBF29CF171F00596B48 /* Debug */,
+				A23E7CC029CF171F00596B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23E7CC129CF171F00596B48 /* Build configuration list for PBXNativeTarget "HumanAnatomy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23E7CC229CF171F00596B48 /* Debug */,
+				A23E7CC329CF171F00596B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23E7CC429CF171F00596B48 /* Build configuration list for PBXNativeTarget "HumanAnatomyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23E7CC529CF171F00596B48 /* Debug */,
+				A23E7CC629CF171F00596B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23E7CC729CF171F00596B48 /* Build configuration list for PBXNativeTarget "HumanAnatomyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23E7CC829CF171F00596B48 /* Debug */,
+				A23E7CC929CF171F00596B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A23E7C9329CF171D00596B48 /* Project object */;
+}

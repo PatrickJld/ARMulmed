@@ -1,0 +1,42 @@
+[
+  {
+    "libraryIdentifier" : "3f43d569134f1e4a7fa806ba13a7fb73",
+    "format" : "model",
+    "displayName" : "Eye.usdz"
+  },
+  {
+    "libraryIdentifier" : "46877b961e28bdaa13decfb1aeb2da79",
+    "format" : "model",
+    "displayName" : "Human_Ear.usdz"
+  },
+  {
+    "libraryIdentifier" : "f1a40464537a303ee184b221b69113f1",
+    "format" : "model",
+    "displayName" : "Male_Body_3.usdz"
+  },
+  {
+    "libraryIdentifier" : "2c940e6f9b79645d0492baa5c96c5803",
+    "format" : "model",
+    "displayName" : "Human_Male_Full_Body_3D_Scan_in_Color.usdz"
+  },
+  {
+    "libraryIdentifier" : "111aa284f79f711bc87abc1f140ddaba",
+    "format" : "model",
+    "displayName" : "Male_Full_Body_Ecorche.usdz"
+  },
+  {
+    "libraryIdentifier" : "a529ea9595aa15de81d4366f5ddebfaf",
+    "format" : "model",
+    "displayName" : "Male_Human_Skeleton_-_ZBrush_-_Anatomy_Study.usdz"
+  },
+  {
+    "libraryIdentifier" : "92e1ddfdcc153fa9f7320a5edaf20f6f",
+    "format" : "model",
+    "displayName" : "Realistic_Human_Lungs.usdz"
+  },
+  {
+    "libraryIdentifier" : "47507198eedc9db30a706e65cda500a2",
+    "format" : "model",
+    "displayName" : "Digestive_System_2.usdz"
+  }
+]
